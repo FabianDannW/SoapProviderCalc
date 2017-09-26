@@ -13,11 +13,20 @@ namespace WcfServicen
     public interface IService1
     {
 
-        [OperationContract]
-        string GetData(int value);
+    
+
 
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        double Add(double a, double b);
+
+        [OperationContract]
+        double Subtract(double a, double b);
+
+        [OperationContract]
+        double Multiply(double a, double b);
+
+        [OperationContract]
+        double Divide(double a, double b);
 
         // TODO: Add your service operations here
     }
