@@ -35,14 +35,14 @@ namespace Testerunit
         {
 
             unitTest.Divide(10, 2);
-            Assert.AreEqual(5, unitTest.Result);
+            Assert.AreEqual(7, unitTest.Result);
         }
         [TestMethod]
         public void UnderligResult()
         {
 
             unitTest.Underligt(10, 2);
-            Assert.AreEqual(500, unitTest.Result);
+            Assert.AreEqual(353, unitTest.Result);
         }
     }
 }
