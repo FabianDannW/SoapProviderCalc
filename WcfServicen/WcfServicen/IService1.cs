@@ -28,6 +28,9 @@ namespace WcfServicen
         [OperationContract]
         double Divide(double a, double b);
 
+        [OperationContract]
+        double Underligt(double a, double b);
+
         // TODO: Add your service operations here
     }
 

@@ -32,6 +32,11 @@ namespace WcfServicen
             return Result = (a / b);
         }
 
+        public double Underligt(double a, double b)
+        {
+            return Result = (a * a * a / b);
+        }
+
         public double Result { get; set; }
           
         }
